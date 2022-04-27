@@ -1,4 +1,4 @@
-#docker run -d --name=Filebrowser --restart=always -p 8082:8082 -v /:/srv filebrowser/filebrowser:latest
+#docker run -d --name=Filebrowser --restart=always -p 8082:80 -v /:/srv filebrowser/filebrowser:latest
 
 version: "3.3"
 services:
@@ -7,4 +7,4 @@ services:
     volumes:
       - /:/srv
     ports:
-      - "8082:8082"
+      - "8082:80"
