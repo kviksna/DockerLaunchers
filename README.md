@@ -12,6 +12,7 @@ Stack: <a href="https://labs.play-with-docker.com?stack=https://raw.githubuserco
 
 _
 
+Portainer: https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/portainer/portainer/latest/stack.yml
 MySQL+phpMyAdmin: https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/mysql/latest/stack.yml
 
 
