@@ -8,6 +8,6 @@ Portainer: <a href="https://labs.play-with-docker.com?stack=https://raw.githubus
 
 Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank">PWD => Filebrowser.yml</a>
 
-
+Stack: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a> (Portainer + Filebrowser)
 
 _
