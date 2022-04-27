@@ -1,4 +1,4 @@
-# Docker Launchers
+# Docker Play Launchers
 
 Play With Docker: https://labs.play-with-docker.com/
 <br>Docker Playground Guide: https://www.guschlbauer.dev/play-with-docker-pwd-an-amazing-one-click-docker-playground-project/
@@ -7,3 +7,9 @@ Play With Docker: https://labs.play-with-docker.com/
 HTML "Play in PWD" image: <img src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" alt="Try in PWD">
 
 Portainer: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="_blank"><img src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" alt="Try in PWD"></a>
+
+Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank"><img src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" alt="Try in PWD"></a>
+
+
+
+_
