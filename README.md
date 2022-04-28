@@ -7,10 +7,10 @@ Play With Docker: https://labs.play-with-docker.com/ ( https://labs.play-with-do
 Portainer: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="_blank">PWD => Portainer.yml</a> (admin/password)
 <br>Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank">PWD => Filebrowser.yml</a>
 <br>Portainer + Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a>
+<br>ToDo stacks:
+<br>Portainer + FileBrowser + PostgreSQL + pgWeb/Adminer;
 
 _
-
-Portainer: https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/portainer/portainer/latest/stack.yml
 <br>MySQL+phpMyAdmin: https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/mysql/latest/stack.yml
 <br>PostgreSQL+pgWeb: https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/postgres/latest/stack.yml (pgWeb container lives for 1s, then "docker ps" is empty!)
 
