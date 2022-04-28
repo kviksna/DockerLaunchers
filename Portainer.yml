@@ -1,11 +1,11 @@
-version: "3.3"
+version: '3'
+
 services:
    portainer:
-    image: portainer/portainer
-#    container_name: portainer
-    volumes:
-     - /var/run/docker.sock:/var/run/docker.sock
-     - ./portainer/portainer_data:/data
+      image: portainer/portainer:latest
+      volumes:
+         - /var/run/docker.sock:/var/run/docker.sock
+#     - ./portainer/portainer_data:/data
 #    command: --admin-password "$$2y$$05$$tv5/3s.O.w0UW08zU6CpO.U.Z9xlchoOetGO91N4z9ZoZjwY/4VOi" #password
-    ports:
-     - "9000:9000"
+      ports:
+         - '9000:9000'
