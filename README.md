@@ -4,7 +4,7 @@ Play With Docker: https://labs.play-with-docker.com/ ( https://labs.play-with-do
 <br>Docker Playground Guide: https://www.guschlbauer.dev/play-with-docker-pwd-an-amazing-one-click-docker-playground-project/
 <br>YAML in 5 minutes: https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes
 
-Portainer: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="_blank">PWD => Portainer.yml</a> (admin/password)
+Portainer: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="new">PWD => Portainer.yml</a> (admin/password)
 <br>Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank">PWD => Filebrowser.yml</a>
 <br>Portainer + Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a>
 <br>ToDo stacks:
