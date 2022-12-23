@@ -6,6 +6,8 @@ services:
       - POSTGRES_USER=pgweb
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=pgweb
+    ports:
+      - 5432:5432
   pgweb:
     image: sosedoff/pgweb:latest
     environment:
