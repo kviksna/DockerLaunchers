@@ -13,6 +13,6 @@ services:
     environment:
       - PGWEB_DATABASE_URL=postgresql://pgweb:password@postgres:5432/pgweb?sslmode=disable
     ports:
-      - 8080:8080
+      - 8081:8081
     depends_on:
       - postgres
