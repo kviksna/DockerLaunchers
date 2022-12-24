@@ -18,4 +18,21 @@ _
 Docker Play workspace:
 <br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer (adminadminadmin)
 <br>docker run -d -p 8080:80 -v /:/srv/ --name filebrowser filebrowser/filebrowser (admin/admin)
+
+https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
 <br>docker run -d -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' dpage/pgadmin4
+
+
+<br>1. Open and login to https://labs.play-with-docker.com/
+<br>2. New Instance
+<br>3. Run docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer (adminadminadmin)
+<br>4. Open :9090 port
+<br>5. Set Portainers new user pwd 12 symbols (for exaple: adminadminadmin)
+<br>6. In Portainer UI: Home > local > Stacks > [+ Add stack] > Name: lowcase
+<br>7. Web editor: docker-compose.yml contents
+<br>8. Actions: [Deploy the stack]
+<br>9. Containers > copy postgers IP
+<br>10. Open :82 port to open pgAdmin4 UI (slow start -self refresh when ready, so just wait) (user@domain.com/SuperSecret)
+<br>11. [Add new server] > General: Name:
+<br>11. Host: postgres container IP (9.) postgres/postgres [Save]
+<br>12. File > Pereferences > Miscellanious > Theme: Dark [Save]
