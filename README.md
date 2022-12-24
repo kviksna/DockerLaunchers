@@ -18,5 +18,5 @@ _
 
 
 Docker Play workspace:
-<br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer
+<br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -e PORT_ADMIN_PASSWORD=password --name portainer portainer/portainer
 <br>docker run -d -p 8080:80 -v /:/srv/ --name filebrowser filebrowser/filebrowser (admin/admin)
