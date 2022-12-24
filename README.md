@@ -1,9 +1,8 @@
 # Docker Play Launchers <a href="https://labs.play-with-docker.com/" target="_blank"><img src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" alt="Try in PWD"></a>
 
 Play With Docker(PWD): https://labs.play-with-docker.com/ ( https://labs.play-with-docker.com?stack= )
-<br>Docker Playground Guide: https://www.guschlbauer.dev/play-with-docker-pwd-an-amazing-one-click-docker-playground-project/
-<br>YAML in 5 minutes: https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes
-<br>Docker images: https://hub.docker.com/
+<br><a href="https://www.guschlbauer.dev/play-with-docker-pwd-an-amazing-one-click-docker-playground-project/">Docker Playground Guide</a>, 
+<a href="https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes">YAML in 5 minutes</a>, https://hub.docker.com/
 
 Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="new">PWD => Portainer.yml</a>
 <br>Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank">PWD => Filebrowser.yml</a>
