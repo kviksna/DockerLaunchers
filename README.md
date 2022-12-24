@@ -11,7 +11,7 @@ Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githu
 <br>Postgres + pgWeb: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/pg-pgweb.yml" target="_blank">PWD => pg-pgweb.yml</a>
 <br>Postgres + pgAdmin4: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/pg-pgadmin.yml" target="_blank">PWD => pg-pgadmin.yml</a>
 <br>MySQL+phpMyAdmin: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/mysql-phpmyadmin.yml" target="_blank">PWD => mysql-phpmyadmin.yml</a>
-<br>Stack: Portainer + FileBrowser + PostgreSQL + pgAdmin4 (phpPgAdmin/Adminer/pgWeb): <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a>
+<br>Stack: Portainer + FileBrowser + PostgreSQL + pgAdmin4 (phpPgAdmin/Adminer/pgWeb): <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a> (PWD ar šo netiek galā !  Sintakse ir korekta!)
 
 _
 
