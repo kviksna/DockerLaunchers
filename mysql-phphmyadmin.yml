@@ -1,3 +1,4 @@
+#https://raw.githubusercontent.com/play-with-docker/stacks/master/mysql/latest/stack.yml
 version: '3.2'
 services:
   mysql:
