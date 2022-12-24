@@ -5,7 +5,7 @@ Play With Docker(PWD): https://labs.play-with-docker.com/ ( https://labs.play-wi
 <br>YAML in 5 minutes: https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes
 <br>Docker images: https://hub.docker.com/
 
-Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="new">PWD => Portainer.yml</a> (admin/password)
+Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Portainer.yml" target="new">PWD => Portainer.yml</a>
 <br>Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank">PWD => Filebrowser.yml</a>
 <br>Portainer + Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/portainer-filebrowser.yml.yml" target="_blank">PWD => portainer-filebrowser.yml</a>
 <br>Postgres + pgWeb: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/pg-pgweb.yml" target="_blank">PWD => pg-pgweb.yml</a>
