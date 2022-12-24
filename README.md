@@ -16,6 +16,6 @@ Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githu
 _
 
 Docker Play workspace:
-<br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer
+<br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer (adminadminadmin)
 <br>docker run -d -p 8080:80 -v /:/srv/ --name filebrowser filebrowser/filebrowser (admin/admin)
 <br>docker run -d -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' dpage/pgadmin4
