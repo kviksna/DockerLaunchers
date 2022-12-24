@@ -16,7 +16,7 @@ Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githu
 _
 
 Docker Play workspace:
-<br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer (adminadminadmin)
+<br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer
 <br>docker run -d -p 8080:80 -v /:/srv/ --name filebrowser filebrowser/filebrowser (admin/admin)
 
 https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
