@@ -8,11 +8,11 @@ Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githu
 <br>Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/Filebrowser.yml" target="_blank">PWD => Filebrowser.yml</a>
 <br>Portainer + Filebrowser: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a>
 <br>ToDo stacks:
-<br>Portainer + FileBrowser + PostgreSQL + pgWeb/Adminer;
+<br>Portainer + FileBrowser + PostgreSQL + pgAdmin4/pgWeb/Adminer;
 
 _
 <br>MySQL+phpMyAdmin: https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/mysql/latest/stack.yml
-<br>PostgreSQL+pgWeb: https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/postgres/latest/stack.yml (pgWeb container lives for 1s, then "docker ps" is empty!)
+<br>PostgreSQL+pgWeb: https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/play-with-docker/stacks/master/postgres/latest/stack.yml (different stack = different Docker network!)
 
 _
 
@@ -20,3 +20,4 @@ _
 Docker Play workspace:
 <br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer
 <br>docker run -d -p 8080:80 -v /:/srv/ --name filebrowser filebrowser/filebrowser (admin/admin)
+<br>docker run -d -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' dpage/pgadmin4
