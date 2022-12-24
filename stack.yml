@@ -13,4 +13,21 @@ services:
       volumes:
          - /:/srv
       ports:
-         - '8082:80'
+         - '81:80'
+  postgres:
+    image: postgres:13.9
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=test
+    ports:
+      - 5432:5432
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - 'PGADMIN_DEFAULT_EMAIL=user@domain.com'
+      - 'PGADMIN_DEFAULT_PASSWORD=SuperSecret'
+    ports:
+      - 82:80
+    depends_on:
+      - postgres
