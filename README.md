@@ -12,7 +12,6 @@ Portainer-ce: <a href="https://labs.play-with-docker.com?stack=https://raw.githu
 <br>MySQL+phpMyAdmin: <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/mysql-phpmyadmin.yml" target="_blank">PWD => mysql-phpmyadmin.yml</a>
 <br>Stack: Portainer + FileBrowser + PostgreSQL + pgAdmin4 (phpPgAdmin/Adminer/pgWeb): <a href="https://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/kviksna/DockerLaunchers/main/stack.yml" target="_blank">PWD => stack.yml</a> (PWD ar šo netiek galā !  Sintakse ir korekta!)
 
-_
 
 Docker Play workspace:
 <br>docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer
@@ -21,9 +20,9 @@ Docker Play workspace:
 https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
 <br>docker run -d -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' dpage/pgadmin4
 
-
+Stack working deployent:
 <br>1. Open and login to https://labs.play-with-docker.com/
-<br>2. New Instance
+<br>2. [New Instance]
 <br>3. Run docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --name portainer portainer/portainer
 <br>4. Open :9090 port
 <br>5. Set Portainers new user pwd 12 symbols (for exaple: adminadminadmin)
