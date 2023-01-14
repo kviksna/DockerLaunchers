@@ -1,0 +1,7 @@
+https://www.tensorflow.org/install
+
+docker pull tensorflow/tensorflow:latest #Download latest stable image, 1.7GB
+
+docker run -itd -p 8888:8888 tensorflow/tensorflow:latest-jupyter #Start Jupyter server 
+
+Url with Token in containers Log
